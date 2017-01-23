@@ -4,16 +4,20 @@ package com.alex.gibbs;
  * Created by Alex on 1/23/2017.
  */
 public class fibonacciNum {
-    void Fibonacci(int x){
-        int a = 0;
-        int b = 1;
-        for (int i = 0; i < x; i++) {
-            System.out.printf("Fibonacci " + (b+=i));
-        }
+    public static void main(String[] args) {
+        int number = 25;
+        fibonacci(number);
     }
 
-    public static void main(String[] args) {
-        fibonacciNum fn = new fibonacciNum();
-        fn.Fibonacci(5);
+    private static void fibonacci(int number) {
+        long a = 0;
+        long b = 1;
+        for (int i = 1; i < number; i++) {
+            long c = a + b;
+            a = b;
+            b = c;
+            if(c > number) break;
+            System.out.println(c);
+        }
     }
 }
