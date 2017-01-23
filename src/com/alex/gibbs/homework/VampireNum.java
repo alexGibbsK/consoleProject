@@ -1,4 +1,4 @@
-package com.alex.gibbs;
+package com.alex.gibbs.homework;
 
 import java.util.Arrays;
 

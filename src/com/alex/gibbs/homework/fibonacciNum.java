@@ -1,4 +1,4 @@
-package com.alex.gibbs;
+package com.alex.gibbs.homework;
 
 /**
  * Created by Alex on 1/23/2017.
