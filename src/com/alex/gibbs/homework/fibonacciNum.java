@@ -5,15 +5,14 @@ package com.alex.gibbs.homework;
  */
 public class fibonacciNum {
     public static void main(String[] args) {
-        int number = 25;
-        fibonacci(number);
+      fibonacci(5);
     }
 
     private static void fibonacci(int number) {
-        long a = 0;
-        long b = 1;
+        int a = 0;
+        int b = 1;
         for (int i = 1; i < number; i++) {
-            long c = a + b;
+            int c = a + b;
             a = b;
             b = c;
             if(c > number) break;
