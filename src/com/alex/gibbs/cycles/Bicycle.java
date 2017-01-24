@@ -5,8 +5,8 @@ package com.alex.gibbs.cycles;
  */
 public class Bicycle extends Cycle{
  Bicycle(){
-     name = "Bicycle";
-     wheels = 2;
+     this.name = "Bicycle";
+     this.wheels = 2;
  }
 
 }
