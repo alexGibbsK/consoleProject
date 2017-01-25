@@ -8,7 +8,6 @@ import java.util.List;
  */
 public class CycleRunner {
     public static void main(String[] args) {
-        Cycle cycle = new Cycle();
         Unicycle unicycle = new Unicycle();
         Bicycle bicycle = new Bicycle();
         Tricycle tricycle = new Tricycle();
