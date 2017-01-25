@@ -10,5 +10,4 @@ public class Cycle {
     public static void ride(Cycle i) {
         System.out.println(i.name + "is rideable " + "wheels: " + i.wheels);
     }
-
 }
